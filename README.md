@@ -1,0 +1,1 @@
+# Vendfy_VendfyForMagento module
