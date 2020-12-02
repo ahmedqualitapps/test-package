@@ -2,7 +2,7 @@
     "name": "ahmedqualitapps/magento-module",
     "description": "magento module",
     "type": "magento2-module",
-    "license": "GPLv2",
+    "license": "MIT",
     "authors": [
         {
             "name": "Developer",
