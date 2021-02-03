@@ -2,7 +2,7 @@
     "name": "vendfy/vendfy-for-magento",
     "description": "Vendfy for magento",
     "type": "magento2-module",
-    "license": "GPL",
+    "license": "MIT",
     "authors": [
         {
             "name": "Vendfy Developer",
