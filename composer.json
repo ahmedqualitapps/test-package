@@ -1,12 +1,12 @@
 {
-    "name": "ahmedqualitapps/magento-module",
-    "description": "magento module",
+    "name": "vendfy/vendfy-for-magento",
+    "description": "Vendfy for magento",
     "type": "magento2-module",
-    "license": "MIT",
+    "license": "GPL",
     "authors": [
         {
-            "name": "Developer",
-            "email": "ahmed.safeek@qualitapps.com"
+            "name": "Vendfy Developer",
+            "email": "dev@vendfy.com"
         }
     ],
     "require": {
@@ -21,5 +21,5 @@
             "Vendfy\\VendfyForMagento\\": ""
         }
     },
-    "version": "0.0.1"
+    "version": "1.0.0"
 }

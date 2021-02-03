@@ -1,0 +1,20 @@
+<?php
+$objectManager =  \Magento\Framework\App\ObjectManager::getInstance();
+$orderData = $objectManager->create('Magento\Sales\Model\Order')->loadByIncrementId($block->getOrderId());
+
+$realOrder = $orderData->getData();
+
+$orderId = $realOrder['entity_id'];
+$orderTotal = $realOrder['base_grand_total'];
+$orderDiscount = $realOrder['base_discount_amount'];
+
+echo "<script type='text/javascript'>
+    var magentoOrderRecieved = {
+        order_id: '$orderId',
+        order_total: '$orderTotal',
+        order_discount: '$orderDiscount'
+    };
+</script>";
+?>
+
+<script src="https://qa.vendfy.qualitapps.com/js/script.js"></script>
